@@ -24,7 +24,13 @@
                         <a class="nav-link" href="Default.aspx">Default Page <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Prescription.aspx">Page Two</a>
+                        <a class="nav-link" href="Prescription.aspx">Prescription</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="OrderNotification.aspx">Order Notification</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="MedRecords.aspx">Medical Records</a>
                     </li>
                 </ul>
             </div>

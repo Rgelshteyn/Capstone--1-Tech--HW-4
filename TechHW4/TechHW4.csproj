@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="MedRecords.aspx" />
+    <Content Include="OrderNotification.aspx" />
     <Content Include="Web.config" />
     <Content Include="Prescription.aspx" />
   </ItemGroup>
@@ -78,6 +80,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedRecords.aspx.cs">
+      <DependentUpon>MedRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedRecords.aspx.designer.cs">
+      <DependentUpon>MedRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNotification.aspx.cs">
+      <DependentUpon>OrderNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderNotification.aspx.designer.cs">
+      <DependentUpon>OrderNotification.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Cap1.Master.cs">

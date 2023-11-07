@@ -19,7 +19,7 @@
                             <input type="text" class="form-control" id="medication" required>
                        </div>
                        <div class="form-group">
-                             <label for="dosage">Dosage:</label>
+                             <label for="dosage">Dosage Size:</label>
                              <input type="text" class="form-control" id="dosage" required>
                        </div>
                        <div class="form-group">
