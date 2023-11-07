@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
-    <Content Include="secondPage.aspx" />
+    <Content Include="Prescription.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -87,12 +87,12 @@
     <Compile Include="Cap1.Master.designer.cs">
       <DependentUpon>Cap1.Master</DependentUpon>
     </Compile>
-    <Compile Include="secondPage.aspx.cs">
-      <DependentUpon>secondPage.aspx</DependentUpon>
+    <Compile Include="Prescription.aspx.cs">
+      <DependentUpon>Prescription.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="secondPage.aspx.designer.cs">
-      <DependentUpon>secondPage.aspx</DependentUpon>
+    <Compile Include="Prescription.aspx.designer.cs">
+      <DependentUpon>Prescription.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
